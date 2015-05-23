@@ -706,7 +706,7 @@ body {
 }
 
 .subscribe-submit {
-    color:#2591ff;
+    color:#a7cb00;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:1rem;
 	font-weight:600;
@@ -728,7 +728,7 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
-    color:#2591ff;
+    color:#a7cb00;
     outline: 0;
 }
 
