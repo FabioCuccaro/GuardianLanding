@@ -39,6 +39,10 @@
     $('#features_3_arrow_back').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#features_3_arrow_next').click(function () { $.scrollTo('#gallery',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#gallery_arrow_back').click(function () { $.scrollTo('0px',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+	$('#button_wwa').click(function () { $.scrollTo('#features_1',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+	$('#button_hiw').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+	$('#button_con').click(function () { $.scrollTo('#features_3',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+
     },
  
  
@@ -82,14 +86,20 @@
  
         $('#features_1').waypoint(function() {
             setTimeout(function(){$('#features_1_content').addClass('animated fadeInDown')},0);
-            setTimeout(function(){$('#features1a_image').addClass('animated fadeInRight')},1100);
-            setTimeout(function(){$('#features1b_image').addClass('animated fadeInRight')},600);
+			setTimeout(function(){$('#who_we_are').addClass('animated fadeInDown')},400);
+            setTimeout(function(){$('#features1a_image').addClass('animated fadeInRight')},1400);
+            setTimeout(function(){$('#features1b_image').addClass('animated fadeInRight')},1000);
+			 setTimeout(function(){$('#features1c_image').addClass('animated fadeInRight')},600);
+			  setTimeout(function(){$('#features1d_image').addClass('animated fadeInRight')},1200);
+			   setTimeout(function(){$('#features1e_image').addClass('animated fadeInRight')},800);
         }, { offset: '50%' });
  
         $('#features_2').waypoint(function() {
             setTimeout(function(){$('#features_2_content').addClass('animated fadeInDown')},0);
-            setTimeout(function(){$('#features2a_image').addClass('animated fadeInLeft')},1100);
-            setTimeout(function(){$('#features2b_image').addClass('animated fadeInLeft')},600)
+            setTimeout(function(){$('#how_it_work').addClass('animated fadeInDown')},400);
+            setTimeout(function(){$('.screen').addClass('animated fadeInLeft')},600);
+			setTimeout(function(){$('.screen2').addClass('animated fadeInLeft')},800);
+			setTimeout(function(){$('.screen3').addClass('animated fadeInLeft')},1000);
         }, { offset: '50%' });
  
         $('#features_3').waypoint(function() {

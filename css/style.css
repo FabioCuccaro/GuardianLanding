@@ -92,10 +92,6 @@ ul {
     list-style:none
 }
 
-li {
-    margin-top:1.625em;
-}
-
 li a {
     display:inline;
 }
@@ -103,6 +99,30 @@ li a {
 hr {
     margin-top:4.568em;
     margin-bottom:4.568em;
+}
+
+nav {
+    background-color: #333;
+	font-size: 1.2em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
 }
 
 
@@ -318,6 +338,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	padding-top: 2em;
 }
 
 #home_image {
@@ -337,8 +358,7 @@ body {
 }
 
 #logo {
-    margin-top: 8rem;
-    margin-bottom: 0.4rem;
+    width: 3em;
     opacity:1;
 }
 
@@ -346,14 +366,26 @@ body {
     margin-bottom:4.3rem
 }
 
+#video {
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+}
+
 #slogan {
     color:white;
-    margin:0px;
-    pading:0px;
     opacity:0;
     position:relative;
     z-index:1;
-    width:50%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+#button_more {
+	margin-top: 2em;
+	margin: 0 auto;
+	display:block;
 }
 
 .cta1, .cta2 {
@@ -484,7 +516,8 @@ body {
 /*######################################*/
 
 #features_1 {
-    margin:0px;
+	height: 50rem;
+
     padding-top:3.25rem;
     padding-bottom:3.25rem;
     background:white;
@@ -500,6 +533,10 @@ body {
 
 .feature {
     margin-top:3.25rem;
+}
+
+#who_we_are{
+	margin: 3rem;
 }
 
 .feature_icon {
@@ -526,7 +563,7 @@ body {
 }
 
 
-#features_1_content, #features1a_image, #features1b_image {opacity:0;}
+#features_1_content, #features1a_image, #features1b_image, #features1c_image, #features1d_image, #features1e_image, .screen, .screen2, .screen3, #how_it_work, #who_we_are{opacity:0;}
 
 
 /*######################################*/
@@ -534,10 +571,11 @@ body {
 /*######################################*/
 
 #features_2 {
+	height: 55rem;
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
-    background:white;
+    background:#f9f9f9;
     position:relative;
     display:block;
     z-index:20;
@@ -546,6 +584,14 @@ body {
 
 #features_2_content {
     padding-top:3rem;
+}
+
+#how_it_work{
+	margin: 2rem;
+}
+
+.image_how_it_work{
+	width: 100%;
 }
 
 
@@ -558,11 +604,12 @@ body {
 /*######################################*/
 
 #features_3 {
+	height: 30rem;
     margin:0px;
     padding-top:6.5rem;
     padding-bottom:0rem;
-    height:40.625rem;
-    background:white;
+    
+    background:#ffffff;
     position:relative;
     display:block;
     z-index:20;
@@ -636,7 +683,14 @@ body {
     animation: pulse .5s;
 }
 
+.chi_siamo{
+	margin: 0px;
+	width: 100%;
+}
 
+#table_who{
+	text-align: center;
+}
 
 #gallery_intro, #gallery_carousel {opacity:0;}
 
@@ -647,11 +701,6 @@ body {
 
 #footer {
     padding-top:5.4rem;
-    padding-bottom:6.5rem;
-    background:white;
-    position:relative;
-    display:block;
-    z-index:100;
     text-align:center;
 }
 
