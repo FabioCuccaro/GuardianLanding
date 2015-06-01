@@ -588,11 +588,27 @@ body {
 
 #how_it_work{
 	margin: 2rem;
+	
+
+	
 }
+
+.image_how_it_work:hover{
+	
+	-moz-transform:scale(2); 
+	-webkit-transform:scale(2);
+	-o-transform:scale(2);
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
+}
+
 
 .image_how_it_work{
 	width: 100%;
+		
 }
+
 
 
 #features_2_content, #features2a_image, #features2b_image {opacity:0;}
