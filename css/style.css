@@ -641,6 +641,7 @@ body {
 .white-txt{
 	color:white;
 	}
+	
 #button_wwa{
 	color:white;
 	}
@@ -652,8 +653,7 @@ body {
 	}
 	
 #contacts_image{
-	min-width: 700px;
-	text-align: center;
+	text-align: left;
 	}
 
 #features_3_intro, #features_3_content_left, #features_3_content_right, #features_3_content_center {opacity:0;}
