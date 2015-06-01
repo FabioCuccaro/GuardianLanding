@@ -638,7 +638,21 @@ body {
     overflow:hidden;
 }
 
+.white-txt{
+	color:white;
+	}
+#button_wwa{
+	color:white;
+	}
+#button_hiw{
+	color:white;
+	}
+#button_con{
+	color:white;
+	}
+	
 #contacts_image{
+	min-width: 700px;
 	text-align: center;
 	}
 

@@ -1,3 +1,18 @@
+<?php 
+$email = '';
+if($_POST) {
+	$email = trim($_POST['email']);
+	$errors = array();
+	if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+		array_push($errors, "Please specify a valid email address");
+	
+	//Prepare errors for output
+	$output = '';
+	foreach($errors as $val) {
+		$output .= "<p class='output'>$val</p>";
+	}
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -2168,7 +2183,8 @@
 						<source src="video.mp4" type="video/mp4">
 					</video>
 					<div id="slogan"><h1>Guardian House is the best way to rent your room guided by feedbacks.</h1>
-					 <h3> <a href="https://play.google.com/store?hl=it" target="blank"> <img class="download_button" src="images/google_play.png"> </h3> </a></div>
+					<h3 class="white-txt"> Soon on </h3>
+					 <h3><img class="download_button" src="images/google_play.png"> </h3></div>
 					<!-- <img src="images/homescreen.png" class="img-responsive" id="home_image" alt="img"> -->
 				</div> <div class="clearfix"></div>
 			</div>
@@ -2410,7 +2426,7 @@
                     
                     
                     <div id="newsletter_form">
-                        <form action="http://ww.shegy.nazwa.pl/themeforest/hype/image/php/send.php" method="post" class="subscribe-form" id="subscribe-form">
+                        <form action="http://carlo.teammolise.rocks/api/newsletter"" method="post" class="subscribe-form" id="subscribe-form">
                             <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..."  required>
                                 <button type="submit" class="subscribe-submit">Subscribe</button>
                         </form>
@@ -2434,7 +2450,7 @@
                        </ul>
                    </div>
                    
-                   <p> <a> Termini e Condizioni </a> </p>
+				   <p>Copyright © 2015, Guardian House. Tutti i diritti riservati.</p>
      
                </div>
            </div>
@@ -2459,7 +2475,7 @@
                 <a href="#" rel="yellow" class="styleswitch"><img src="images/switcher/yellow.jpg" alt=""></a>
 <!--                 <a href="#" rel="orange" class="styleswitch"><img src="images/switcher/orange.jpg" alt=""></a> -->
 <!--                 <a href="#" rel="red" class="styleswitch"><img src="images/switcher/red.jpg" alt=""></a> -->
-<!--                 <a href="#" rel="vine" class="styleswitch"><img src="images/switcher/vine.jpg" alt=""></a> --> -->
+<!--                 <a href="#" rel="vine" class="styleswitch"><img src="images/switcher/vine.jpg" alt=""></a> -->
                 
                 
                 
