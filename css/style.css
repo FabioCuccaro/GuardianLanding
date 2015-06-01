@@ -638,6 +638,9 @@ body {
     overflow:hidden;
 }
 
+#contacts_image{
+	text-align: center;
+	}
 
 #features_3_intro, #features_3_content_left, #features_3_content_right, #features_3_content_center {opacity:0;}
 
