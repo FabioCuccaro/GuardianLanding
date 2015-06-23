@@ -30,6 +30,7 @@ if($_POST) {
     <link href="css/nivo_lightbox_themes/default/default.css" rel="stylesheet" media="screen">
     <link href="css/colors/green.css" rel="stylesheet" media="screen">
     <link href="css/responsive.css" rel="stylesheet" media="screen">
+	<link href="css/jquery.cookiebar.css" rel="stylesheet" media="screen">
     
     <!-- Google fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
@@ -2497,7 +2498,12 @@ if($_POST) {
     <script src="js/waypoints.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/nivo-lightbox.min.js"></script>
+	<script src="js/jquery.cookiebar.js"></script>
     <script type="text/javascript">
+		$('document').ready(function () {
+			$.cookieBar();
+		});
+	
         $('document').ready(function(){
                 $('#subscribe-form').ajaxForm( {
                 target: '#preview',
