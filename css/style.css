@@ -368,6 +368,7 @@ body {
 
 #video {
 	margin: 0 auto;
+	margin-top: 60px;
 	width: 60%;
 	display: block;
 }

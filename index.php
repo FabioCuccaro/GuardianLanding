@@ -2144,6 +2144,7 @@ if($_POST) {
   </head>
   
   <body>
+	<a name="top"></a>
     
     <!--###############################-->
     <!--PRELOADER #####################-->
@@ -2164,13 +2165,13 @@ if($_POST) {
     <!--HOME ##########################-->
     <!--###############################-->
 
-	<nav>
+	<nav class="navbar navbar-fixed-top">
 		<ul>
-			<li><a href="#home"><img src="images/logo_sito.png" alt="logo" id="logo"></a></li>
+			<li><a href="#top"><img src="images/logo_sito.png" alt="logo" id="logo"></a></li>
 			<span id="menu_items">
-				<li><a href="#" id="button_wwa">WHO WE ARE</a></li>
-				<li><a href="#" id="button_hiw">HOW IT WORKS</a></li>
-				<li><a href="#" id="button_con">CONTACTS</a></li>
+				<li><a href="#" id="button_wwa">CHI SIAMO</a></li>
+				<li><a href="#" id="button_hiw">COME FUNZIONA</a></li>
+				<li><a href="#" id="button_con">CONTATTI</a></li>
 			</span>
 		</ul>
 	</nav>
