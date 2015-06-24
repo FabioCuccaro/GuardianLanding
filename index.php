@@ -2452,7 +2452,7 @@ if($_POST) {
                        </ul>
                    </div>
                    
-				   <p>Copyright © 2015, Guardian House. Tutti i diritti riservati.</p>
+				   <p>Copyright �� 2015, Guardian House. Tutti i diritti riservati.</p>
      
                </div>
            </div>
@@ -2501,9 +2501,9 @@ if($_POST) {
     <script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/jquery.cookiebar.js"></script>
     <script type="text/javascript">
-		$('document').ready(function () {
+		/* $('document').ready(function () {
 			$.cookieBar();
-		});
+		}); */
 	
         $('document').ready(function(){
                 $('#subscribe-form').ajaxForm( {
