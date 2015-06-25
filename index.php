@@ -2185,8 +2185,7 @@ if($_POST) {
 						<source src="video.mp4" type="video/mp4">
 					</video>
 					<div id="slogan"><h1>Guardian House is the best way to rent your room guided by feedbacks.</h1>
-					<h3 class="white-txt"> Soon on </h3>
-					 <h3><img class="download_button" src="images/google_play.png"> </h3></div>
+					
 					<!-- <img src="images/homescreen.png" class="img-responsive" id="home_image" alt="img"> -->
 				</div> <div class="clearfix"></div>
 			</div>
@@ -2264,20 +2263,20 @@ if($_POST) {
             <div class="row"  >
                 <div class="col-sm-12 col-md-12  col-lg-12">
 				<table id="table_who">
-				<caption> <h1 id="who_we_are"> Who we are </h1> </caption>
+				<caption> <h1 id="who_we_are"> Chi siamo</h1> </caption>
 				<tr>
-				<td id="features1a_image"> <h3>D'Uva Cosmo </h3> <img class="chi_siamo" src="images/cosmo.png"  alt="img"> </td>
+				<td id="features1a_image">  <img class="chi_siamo" src="images/cosmo.png"  alt="img"> <h3>D'Uva Cosmo </h3>  <span class="ruolo">Sviluppatore web/ Grafico </span> </td>
 				<td> </td>
-				<td id="features1b_image"> <h3>Cuccaro Fabio </h3>  <img class="chi_siamo" src="images/fabio.png"   alt="img">  </td>
+				<td id="features1b_image">  <img class="chi_siamo" src="images/fabio.png"   alt="img"> <h3>Cuccaro Fabio </h3> <span class="ruolo">Sviluppatore client </span>  </td>
 				<td> </td>
-				<td id="features1c_image"> <h3>Nae Vasilica </h3> <img class="chi_siamo" src="images/nae.png"   alt="img"> </td>
+				<td id="features1c_image"> <img class="chi_siamo" src="images/nae.png"   alt="img"> <h3>Nae Vasilica </h3> <span class="ruolo">Community Developer </span>  </td>
 				
 				</tr>
 				<tr>
 				<td> </td>
-				<td id="features1d_image">   <img class="chi_siamo" src="images/carlo.png"   alt="img"> <h3>Branca Carlo </h3></td>
+				<td id="features1d_image">   <img class="chi_siamo" src="images/carlo.png"   alt="img"> <h3>Branca Carlo </h3> <span class="ruolo">Sviluppatore client/ server </span> </td>
 				<td> </td>
-				<td id="features1e_image"> <img class="chi_siamo" src="images/luigi.png"   alt="img"> <h3>Vecchione Luigi </h3> </td>
+				<td id="features1e_image"> <img class="chi_siamo" src="images/luigi.png"   alt="img"> <h3>Vecchione Luigi </h3> <span class="ruolo">Sviluppatore client</span>  </td>
 				<td> </td>
 				
 				</tr>
@@ -2301,7 +2300,7 @@ if($_POST) {
            <div class="row"  >
                 <div class="col-sm-12 col-md-12  col-lg-12">
 				<table id="table_who">
-				<caption> <h1 id="how_it_work">How it works?</h1> </caption>
+				<caption> <h1 id="how_it_work">Come funziona?</h1> </caption>
 				<tr>
 				<td width="33%" class="screen"> <h3>Cerca un appartamento </h3> </td>
 				<td width="33%" class="screen2"> <h3>Visualizza le informazioni dell'appartamento</h3></td>
@@ -2337,7 +2336,7 @@ if($_POST) {
 <!--     Features 3 #################### -->
 <!--     ############################### -->
 
-    <section id="features_3">
+<!--     <section id="features_3">
         <div class="container">
             <div class="row" id="features_3_intro">
                 <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
@@ -2350,7 +2349,7 @@ if($_POST) {
 				 <h3> <a href="https://www.facebook.com/pages/Guardian-House/796482390422393?fref=ts" target="blank"> <img class="follow_button" src="images/facebook.png"> Guardian House</h3> </a>
         </div>
 		</div>
-    </section>
+    </section> -->
 
 
 <!--     Arrows - version with custom background color to match section above -->
@@ -2441,23 +2440,18 @@ if($_POST) {
            <div class="row">
                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" id="share">
                    
-                   <div id="social_icons">
-                       <ul>
-                           <li><svg viewBox="0 0 32 32" id="fb_icon" onclick="location.href='#'"><use xlink:href="#facebook"></use></svg></li>
-                           <li><svg viewBox="0 0 32 32" id="tw_icon" onclick="location.href='#''"><use xlink:href="#twitter"></use></svg></li>
-                           <li><svg viewBox="0 0 32 32" id="in_icon" onclick="location.href='#'"><use xlink:href="#linkedin"></use></svg></li>
-                           <li><svg viewBox="0 0 32 32" id="g_icon" onclick="location.href='#'"><use xlink:href="#google-plus"></use></svg></li>
-                           <li><svg viewBox="0 0 32 32" id="pin_icon" onclick="location.href='#'"><use xlink:href="#pinterest"></use></svg></li>
-                           <li><svg viewBox="0 0 32 32" id="fli_icon" onclick="location.href='#'"><use xlink:href="#flickr"></use></svg></li>
-                       </ul>
-                   </div>
-                   
+
+				     <a href="https://www.facebook.com/pages/Guardian-House/796482390422393?fref=ts" target="blank"> <img class="follow_button" src="images/facebook.png">  </a> 
+                     <a onclick="alert('coming soon!')" target="blank"> <img class="follow_button" src="images/twitter.png">  </a> 
 				   <p>Copyright �� 2015, Guardian House. Tutti i diritti riservati.</p>
+				   
      
                </div>
+			   
            </div>
            
         </div>
+		
     </section>
     
  <!--    ADD Switcher

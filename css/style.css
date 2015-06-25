@@ -51,10 +51,14 @@ a:hover {
     text-decoration:none;
 }
 
-h1,h2,h3 {
+h1,h2,h3,.ruolo{
     font-family: 'Lane', sans-serif;
     font-weight: normal;
 }
+
+.ruolo {
+    font-size:1.1rem;
+   }
 
 h1 {
     font-size:3rem;
@@ -86,6 +90,11 @@ h5 {
     font-weight:300;
     color:white;
     text-transform:uppercase;
+}
+
+h6 {
+    font-size:1rem;
+    line-height:3.5rem;
 }
 
 ul {
@@ -368,8 +377,8 @@ body {
 
 #video {
 	margin: 0 auto;
-	margin-top: 60px;
-	width: 60%;
+	margin-top: 30px;
+	width: 100%;
 	display: block;
 }
 
@@ -538,6 +547,7 @@ body {
 
 #who_we_are{
 	margin: 3rem;
+	text-align:center
 }
 
 .feature_icon {
@@ -594,15 +604,13 @@ body {
 	
 }
 
-.image_how_it_work:hover{
-	
-	-moz-transform:scale(2); 
-	-webkit-transform:scale(2);
-	-o-transform:scale(2);
-	-moz-transition:-moz-transform 0.5s ease-in; 
-	-webkit-transition:-webkit-transform 0.5s ease-in; 
-	-o-transition:-o-transform 0.5s ease-in;
+.follow_button{
+float: right;
+width: 50px;
+height: 50px; 
+
 }
+
 
 
 .image_how_it_work{
@@ -789,7 +797,7 @@ body {
 }
 
 .subscribe-submit {
-    color:#a7cb00;
+    color:#2196f3;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:1rem;
 	font-weight:600;
@@ -811,7 +819,7 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
-    color:#a7cb00;
+    color:#2196f3;
     outline: 0;
 }
 
