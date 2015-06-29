@@ -2495,9 +2495,9 @@ if($_POST) {
     <script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/jquery.cookiebar.js"></script>
     <script type="text/javascript">
-		/* $('document').ready(function () {
+		$('document').ready(function () {
 			$.cookieBar();
-		}); */
+		}); 
 	
         $('document').ready(function(){
                 $('#subscribe-form').ajaxForm( {
