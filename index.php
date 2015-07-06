@@ -133,33 +133,47 @@ if($_POST) {
 
     <section id="features_1">
         <div id="learn_more" class="container">
-            <div class="row"  >
-                <div class="col-sm-12 col-md-12  col-lg-12">
-				<table id="table_who">
-				<caption> <h1 id="who_we_are">About us</h1> </caption>
-				<tr>
-				<td id="features1a_image">  <img class="chi_siamo" src="images/cosmo.png"  alt="img"> <h3>D'Uva Cosmo </h3>  <span class="ruolo">Web Developer / Designer </span> </td>
-				<td> </td>
-				<td id="features1b_image">  <img class="chi_siamo" src="images/fabio.png"   alt="img"> <h3>Cuccaro Fabio </h3> <span class="ruolo">Frontend Developer</span>  </td>
-				<td> </td>
-				<td id="features1c_image"> <img class="chi_siamo" src="images/nae.png"   alt="img"> <h3>Nae Vasilica </h3> <span class="ruolo">Community Developer</span>  </td>
-
-				</tr>
-				<tr>
-				<td> </td>
-				<td id="features1d_image">   <img class="chi_siamo" src="images/carlo.png"   alt="img"> <h3>Branca Carlo </h3> <span class="ruolo">Frontend / Backend Developer</span> </td>
-				<td> </td>
-				<td id="features1e_image"> <img class="chi_siamo" src="images/luigi.png"   alt="img"> <h3>Vecchione Luigi </h3> <span class="ruolo">Frontend Developer</span>  </td>
-				<td> </td>
-
-				</tr>
-				</table>
-
-            </div>
-
+					<caption> <h1 id="who_we_are">About us</h1> </caption>
+            <div class="row row-centered">
+                <div class="col-sx-1 col-md-3 col-lg-3 col-centered margin-top" ><img class="img-responsive" src="images/carlo.png" alt="img"> <h3>Branca Carlo </h3> <span class="ruolo">Frontend / Backend Developer</span></div>
+							  <div class="col-sx-1 col-md-3 col-lg-3 col-centered margin-top col-md-offset-1" ><img class="img-responsive" src="images/fabio.png"   alt="img"> <h3>Cuccaro Fabio </h3> <span class="ruolo">Frontend Developer</span></div>
+								<div class="col-sx-1 col-md-3 col-lg-3 col-centered margin-top col-md-offset-1"><img class="img-responsive" src="images/luigi.png"   alt="img"> <h3>Vecchione Luigi </h3> <span class="ruolo">Frontend Developer</span></div>
+                <div class="col-sx-1 col-md-3 col-lg-3 col-centered margin-top"><img class="img-responsive" src="images/cosmo.png"  alt="img"> <h3>D'Uva Cosmo </h3>  <span class="ruolo">Web Developer / Designer </span></div>
+							  <div class="col-sx-1 col-md-3 col-lg-3 col-centered margin-top col-md-offset-1"><img class="img-responsive" src="images/nae.png"   alt="img"> <h3>Nae Vasilica </h3> <span class="ruolo">Community Developer</span></div>
+						</div>
         </div>
 
     </section>
+		<!--
+		<section id="features_1">
+				<div id="learn_more" class="container">
+						<div class="row"  >
+								<div class="col-sm-12 col-md-12  col-lg-12">
+									<table id="table_who">
+									<caption> <h1 id="who_we_are">About us</h1> </caption>
+									<tr>
+										<td id="features1d_image">   <img class="chi_siamo" src="images/carlo.png"   alt="img"> <h3>Branca Carlo </h3> <span class="ruolo">Frontend / Backend Developer</span> </td>
+										<td> </td>
+										<td id="features1b_image">  <img class="chi_siamo" src="images/fabio.png"   alt="img"> <h3>Cuccaro Fabio </h3> <span class="ruolo">Frontend Developer</span>  </td>
+										<td> </td>
+										<td id="features1e_image"> <img class="chi_siamo" src="images/luigi.png"   alt="img"> <h3>Vecchione Luigi </h3> <span class="ruolo">Frontend Developer</span>  </td>
+									</tr>
+									<tr>
+										<td> </td>
+										<td id="features1a_image">  <img class="chi_siamo" src="images/cosmo.png"  alt="img"> <h3>D'Uva Cosmo </h3>  <span class="ruolo">Web Developer / Designer </span> </td>
+										<td> </td>
+										<td id="features1c_image"> <img class="chi_siamo" src="images/nae.png"   alt="img"> <h3>Nae Vasilica </h3> <span class="ruolo">Community Developer</span>  </td>
+
+										<td> </td>
+									</tr>
+								</table>
+
+						</div>
+
+				</div>
+
+		</section>
+	-->
 
 
 
@@ -170,25 +184,13 @@ if($_POST) {
 
     <section id="features_2">
         <div class="container">
-           <div class="row"  >
-                <div class="col-sm-12 col-md-12  col-lg-12">
-				<table id="table_who">
-				<caption> <h1 id="how_it_work">How it works?</h1> </caption>
-				<tr>
-				<td width="33%" class="screen"> <h3>Find an apartment</h3> </td>
-				<td width="33%" class="screen2"> <h3>View apartment's infos</h3></td>
-				<td width="33%" class="screen3"> <h3>View reviews of other users </h3> </td>
-				</tr>
-				<tr>
-				<td class="screen"> <img class="image_how_it_work" src="images/2.png"   alt="img"> </td>
-				<td class="screen2"> <img class="image_how_it_work" src="images/4.png"   alt="img">   </td>
-				<td class="screen3">  <img class="image_how_it_work" src="images/5.png"   alt="img"> </td>
-				</tr>
-				</table>
-
-            </div>
-
-        </div>
+					<caption> <h1 id="how_it_work">How it works?</h1> </caption>
+							<div class="row row-centered">
+	                <div class="col-sx-12 col-md-12 col-lg-12 col-centered margin-top screen" ><h3>Find an apartment</h3><img class="img-responsive" src="images/2.png" alt="img"></div>
+								  <div class="col-sx-12 col-md-12 col-lg-12 col-centered margin-top screen2" ><h3>View apartment's infos</h3><img class="img-responsive" src="images/4.png" alt="img"></div>
+									<div class="col-sx-12 col-md-12 col-lg-12 col-centered margin-top screen3"><h3>View reviews of other users</h3><img class="img-responsive" src="images/5.png" alt="img"></div>
+							</div>
+			</div>
 
     </section>
 

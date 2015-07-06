@@ -35,6 +35,33 @@ body {
 	padding-top: 50px;
 }
 
+.img-responsive {
+  display: inline-block;
+  height: auto;
+	width: 80%;
+  max-width: 100%;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+/* centered columns styles */
+
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+		vertical-align: top;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 p {
     font-size: 1rem;
 	line-height: 1.625em;
@@ -60,7 +87,7 @@ h1,h2,h3,.ruolo{
 }
 
 .ruolo {
-    font-size:1.1rem;
+    font-size:1.3rem;
    }
 
 h1 {
@@ -340,7 +367,6 @@ body {
 }
 
 #home {
-    height: 47.125rem;
     position:relative;
     z-index:0;
     overflow:hidden;
@@ -529,7 +555,7 @@ body {
 /*######################################*/
 
 #features_1 {
-	height: 50rem;
+
 
     padding-top:3.25rem;
     padding-bottom:3.25rem;
@@ -585,7 +611,6 @@ body {
 /*######################################*/
 
 #features_2 {
-	height: 55rem;
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
@@ -602,6 +627,7 @@ body {
 
 #how_it_work{
 	margin: 2rem;
+	text-align:center;
 
 
 
