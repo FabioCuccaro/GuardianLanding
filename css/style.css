@@ -52,12 +52,21 @@ body {
 .row-centered {
     text-align:center;
 }
-.col-centered {
+.col-centered-top {
     display:inline-block;
     float:none;
     /* reset the text-align */
     text-align:center;
 		vertical-align: top;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
 }
