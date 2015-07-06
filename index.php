@@ -19,6 +19,12 @@ if($_POST) {
     <title>Guardian House</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!--
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		-->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -266,10 +272,6 @@ if($_POST) {
     <script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/jquery.cookiebar.js"></script>
     <script type="text/javascript">
-		$('document').ready(function () {
-			$.cookieBar();
-		});
-
         $('document').ready(function(){
                 $('#subscribe-form').ajaxForm( {
                 target: '#preview',
